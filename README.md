@@ -1,7 +1,14 @@
-The research explores the application of an aircraft localization system in the context of infrastructure inspection, focusing on its application in vertical gardening. 
+# UAV Localization System for Infrastructure Inspection
 
-Through a detailed review of the problems and the working environment, the specifics of the International Conference on Unmanned Aircraft Systems (ICUAS) competition are analyzed, 
-for which a simulation world has been developed in the Gazebo environment. Using the ROS platform and tools such as Python, Pynput, OpenCV, and PyTorch, a software solution has been developed that enables object localization, 
-drone management, and plant detection in the garden. The paper provides a detailed description of the localization systems, the drone management process, and the plant detection algorithms, mentioning the YOLO algorithm. 
-Furthermore, the research explores future work possibilities, including voxelization of the detected world and trajectory planning implementation.
-This paper provides a foundation for understanding and applying drone localization systems in specific infrastructure inspection scenarios such as vertical gardening.
+## Overview
+This project explores the development of an **aircraft localization system** for **infrastructure inspection**, with a particular focus on **vertical gardening**. The system is designed to enable **precise object localization, autonomous drone navigation, and plant detection** using advanced computer vision and robotics techniques.
+
+A simulation environment has been developed in **Gazebo**, tailored for the **International Conference on Unmanned Aircraft Systems (ICUAS) 2024** competition. The implementation leverages **ROS (Robot Operating System)** and tools such as **Python, Pynput, OpenCV, and PyTorch** to facilitate accurate localization, control, and analysis.
+
+## Features
+- **UAV Localization:** Utilizes various localization techniques, including GPS-based and vision-based positioning.
+- **Object Detection & Classification:** Employs the **YOLO v7 algorithm** for plant detection.
+- **Simulated Environment:** Built within **Gazebo** for testing UAV movement, localization, and interaction.
+- **Trajectory Planning:** Future implementation aims to integrate **voxelization** and **autonomous path planning**.
+- **ROS Integration:** Uses **tf transformations** to map objects into a global coordinate system.
+  
