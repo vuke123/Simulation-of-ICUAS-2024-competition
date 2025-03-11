@@ -1,4 +1,4 @@
-# UAV Localization System for Infrastructure Inspection
+# UAV Localization System for Infrastructure Inspection | Research and Approach
 
 ## Overview
 This project explores the development of an **aircraft localization system** for **infrastructure inspection**, with a particular focus on **vertical gardening**. The system is designed to enable **precise object localization, autonomous drone navigation, and plant detection** using advanced computer vision and robotics techniques.
